@@ -1,0 +1,37 @@
+/*-------------------------------------
+		15. New-project
+--------------------------------------*/
+.new-project {
+  padding: 72px 0 72px;
+  background: #7370d8;
+}
+.single-new-project h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+.single-new-project a.slide-btn,
+.single-new-project a:active .slide-btn,
+.single-new-project a:focus .slide-btn {
+  display: inline-block;
+  padding: 17px 42px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-new-project a.slide-btn:hover {
+  background: #f5f5fb;
+  color: #5549af;
+  border: 1px solid #f5f5fb;
+}

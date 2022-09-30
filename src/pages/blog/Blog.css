@@ -1,0 +1,175 @@
+/*-------------------------------------
+		BLOG PAGE
+--------------------------------------*/
+.blogs-widget {
+  position: relative;
+  margin: 0 0 34px 0;
+}
+.blogs-widget h2 {
+  color: #4d4e54;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/*--blog sidebar search--*/
+.blogs-widget .form-control {
+  position: relative;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  height: 50px;
+  border: 1px solid #d7d7d7;
+}
+.blogs-widget input {
+  color: #888;
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 38px;
+}
+.blog-search-icon a {
+  color: #888;
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  font-size: 20px;
+} /*--blog sidebar search--*/
+
+/*--blog-categories-list--*/
+.blog-categories-list {
+  margin-top: 20px;
+}
+.blog-categories-list ul li a {
+  display: inline-block;
+  padding: 12px 0 0px;
+  color: #888;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.blog-categories-list ul li a:hover {
+  color: #908edf;
+  -webkit-transform: translate(10px);
+  -moz-transform: translate(10px);
+  -ms-transform: translate(10px);
+  -o-transform: translate(10px);
+  transform: translate(10px);
+}
+.blog-categories-list ul li a i {
+  padding-right: 10px;
+} /*--blog-categories-list--*/
+
+/*blog-related-news*/
+.blog-related-news {
+  padding: 38px 0 0px;
+}
+.bl-txt {
+  display: -webkit-box;
+  max-width: 240px;
+  padding: 0px 0 25px;
+}
+.bl-img a img {
+  width: 100px;
+  height: 100px;
+}
+.bl-txt p a {
+  color: #4d4e54;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin-left: 20px;
+  line-height: 1.4;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.bl-txt span {
+  display: block;
+  color: #888;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  padding-top: 8px;
+}
+.bl-txt p a:hover {
+  color: #908edf;
+} /*blog-related-news*/
+
+/*--blog button--*/
+.blog-tags {
+  padding: 38px 0 0 0;
+}
+.blogs-widget .btn {
+  color: #4d4e54;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  background-color: #fff;
+  border-color: #4d4e54;
+  margin: 0 10px 10px 0;
+  padding: 3px 11px 3px 11px;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blogs-widget .btn:hover {
+  color: #908edf;
+  border: 1px solid #908edf;
+}
+xx
+
+/*pagination*/
+.pagination-part {
+  text-align: center;
+}
+
+.pagination-part .pagination > .active > a,
+.pagination-part .pagination > .active > a:focus,
+.pagination-part .pagination > .active > a:hover,
+.pagination-part .pagination > .active > span,
+.pagination-part .pagination > .active > span:focus,
+.pagination-part .pagination > .active > span:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #908edf;
+  border-color: #908edf;
+}
+.pagination-part .pagination > li > a,
+.pagination-part .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 11px 17px;
+  margin-left: 25px;
+  line-height: 1.42857143;
+  color: #888;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+}
+.pagination-part .pagination > li:nth-child(1) > a,
+.pagination-part .pagination > li:nth-child(2) > a,
+.pagination-part .pagination > li:nth-child(3) > a {
+  border: 1px solid #888;
+}
+.pagination-part .pagination {
+  margin-top: 63px;
+}

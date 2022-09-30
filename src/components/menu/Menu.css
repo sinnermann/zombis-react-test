@@ -1,0 +1,131 @@
+#menu {
+  z-index: 999;
+}
+/* navbar-brand */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
+  margin-top: 33px;
+  padding: 0;
+} /* navbar-brand */
+
+/* wrapper-sticky */
+.wrapper-sticky {
+  position: relative;
+  display: inline-block;
+  background: rgba(115, 112, 216, 1);
+}
+
+/* sticky */
+.sticky {
+  background: rgba(115, 112, 216, 1);
+  padding: 10px 0px 0px;
+  height: 80px;
+  color: #fff;
+}
+
+.sticky .navbar-brand {
+  margin-top: 20px;
+}
+.sticky .navbar-default .navbar-nav li a,
+.sticky .navbar-default .navbar-nav li a:active,
+.sticky .navbar-default .navbar-nav li a:focus,
+.sticky .navbar-default .navbar-nav li a:hover {
+  color: #fff;
+  margin: 0px 0px;
+}
+.sticky .navbar-default .navbar-toggle,
+.sticky .navbar-default .navbar-toggle:focus,
+.sticky .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border: 1px solid #000;
+  margin-top: 15px;
+} /* sticky */
+
+/* wrapper-sticky */
+
+/* navbar-default */
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin-top: 18px;
+  padding-left: 27px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.navbar-default.navbar-nav li a:active,
+.navbar-default.navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover {
+  color: #fff;
+  outline: 0;
+  font-weight: 700;
+  margin-top: 18px;
+  padding-bottom: 25px;
+  padding-left: 27px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-top: 18px;
+  padding-bottom: 25px;
+  padding-left: 27px;
+} /* navbar-default */
+
+/* navbar-toggle*/
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border: 1px solid #000;
+  margin-top: 25px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+} /* navbar-toggle*/
+
+/* .search */
+.sticky .search span {
+  top: 16px;
+}
+.sticky .search input {
+  top: 40px;
+}
+
+.search span {
+  position: absolute;
+  right: -17px;
+  top: 35px;
+  cursor: pointer;
+  z-index: 1;
+  color: #fff;
+}
+.search input {
+  position: absolute;
+  top: 60px;
+  right: -17px;
+  width: 15px;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1;
+  opacity: 0;
+}
+.search input.active {
+  border-radius: 0 4px;
+} /* .search */

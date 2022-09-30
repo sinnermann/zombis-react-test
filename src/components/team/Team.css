@@ -1,0 +1,129 @@
+/*-------------------------------------
+		9. Team
+--------------------------------------*/
+.team {
+  padding: 120px 0;
+  background: #908ddc;
+}
+.team.team-main {
+  background: #fff;
+}
+
+/*team-head*/
+.project-header.team-header h2,
+.project-header.team-header p {
+  color: #fff;
+}
+.project-header.team-header.team-head h2,
+.project-header.team-header.team-head p {
+  color: #000;
+}
+.project-header.team-header.team-head p {
+  margin: 0 auto;
+  margin-top: 32px;
+} /*team-head*/
+
+/*singleteam-box*/
+.team .team-carousel .col-sm-3,
+.team .team-carousel .col-xs-12 {
+  width: 100%;
+  height: auto;
+}
+.team-card {
+  padding: 75px 0 0 0;
+}
+.team-card.team-mrt-70 {
+  margin-top: -70px;
+}
+.single-team-box {
+  position: relative;
+  height: 352px;
+  width: 75%;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+/*single-team-box*/
+
+/*team-box-bg*/
+
+.team-box-bg-1 {
+  background: url(../../assets/images/team/team.jpg) no-repeat;
+}
+.team-box-bg-2 {
+  background: url(../../assets/images/team/team3.jpg) no-repeat;
+}
+.team-box-bg-3 {
+  background: url(../../assets/images/team/team2.jpg) no-repeat;
+}
+.team-box-bg-4 {
+  background: url(../../assets/images/team/team3.jpg) no-repeat;
+} /*team-box-bg*/
+
+/*team-box-inner*/
+.team-box-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 19px 0 0px 30px;
+  background: rgba(65, 62, 126, 0.8);
+  height: 90px;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+.team-box-inner h3 {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+.team-box-inner .team-meta {
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+a.learn-btn,
+a:hover.learn-btn,
+a:focus.learn-btn,
+a:active.learn-btn {
+  color: #7086e6;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 8px;
+  padding-bottom: 18px;
+  opacity: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.single-team-box:hover a.learn-btn {
+  opacity: 1;
+} /*team-box-inner*/
+.single-team-box:hover .team-box-inner {
+  height: 100px;
+}
+.single-team-box:hover {
+  box-shadow: 5px 5px 30px 5px rgba(65, 62, 126, 0.2);
+}
+.single-team-box.single-team-card:hover {
+  box-shadow: 0px 5px 35px 5px rgba(6, 5, 49, 0.2);
+}

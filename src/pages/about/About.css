@@ -1,0 +1,167 @@
+/*-------------------------------------
+		i. about-part
+--------------------------------------*/
+
+.about-part {
+  position: relative;
+  background: url(../../assets/images/about/about-banner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 124px 0 144px;
+  z-index: 1;
+}
+.about-part.service-part {
+  background: url(../../assets/images/service/service-banner.jpg) no-repeat
+    center;
+}
+.about-part.project-part {
+  background: url(../../assets/images/project/project-banner.jpg) no-repeat
+    center;
+}
+/*
+.about-part.team-part {
+  background: url(../images/team/team-banner.jpg) no-repeat center;
+}
+.about-part.blog-part {
+  background: url(../images/blog/blog-banner.jpg) no-repeat center;
+}
+*/
+.about-part:before {
+  position: absolute;
+  content: "";
+  background: rgba(115, 112, 216, 0.6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.about-part-details h2 {
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 3px;
+  left: 15px;
+}
+.about-part-content {
+  position: relative;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  background-color: transparent;
+}
+.breadcrumb > li + li:before {
+  padding: 0 0px;
+  color: transparent;
+  content: "";
+}
+.breadcrumb li > a {
+  color: #dddcff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+.breadcrumb li {
+  color: #dddcff;
+}
+.breadcrumb li span {
+  margin-left: 8px;
+  margin-right: 4px;
+  font-size: 20px;
+}
+
+/*-------------------------------------
+		ii. about-history
+--------------------------------------*/
+.about-history {
+  padding: 115px 0 90px;
+}
+.about-history-img img {
+  box-shadow: 0 0 20px rgba(112, 134, 230, 0.2);
+  height: 435px;
+}
+.about-history-txt h2 {
+  color: #4d4e54;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 16px 0 20px 0;
+}
+.about-history-txt p {
+  color: #888;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+/*main-timeline*/
+.about-vission-content {
+  padding: 90px 0 0;
+}
+.main-timeline {
+  position: relative;
+  margin-top: 39px;
+  transition: all 0.4s ease 0s;
+}
+.main-timeline:before {
+  content: "";
+  width: 1px;
+  background: #dbdbdb;
+  position: absolute;
+  top: 5.2%;
+  left: 14.5%;
+  height: 80%;
+}
+.xtra-timeline.main-timeline:before {
+  display: none;
+  /* content: "";
+    width:1px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 8.2%;
+    left: 0.5%;
+    height: 72%; */
+}
+.main-timeline .timeline {
+  position: relative;
+  margin-bottom: 25px;
+  left: -15px;
+}
+
+.main-timeline .timeline-content {
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}
+.timeline-content span > i {
+  display: inline-block;
+  color: #7370d8;
+  position: relative;
+  top: 15px;
+  left: -9px;
+  background: #fff;
+}
+
+.experience-time h3 {
+  font-size: 16px;
+  color: #4d4e54;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 14px;
+}
+.main-timeline .description,
+.xtra-timeline.main-timeline .description {
+  font-size: 14px;
+  color: #888;
+  margin-left: 36px;
+  margin-top: -7px;
+  max-width: 390px;
+}
+
+.main-timeline .timeline.timeline-ml-20 {
+  margin-left: 20px;
+}

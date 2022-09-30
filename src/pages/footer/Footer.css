@@ -1,0 +1,198 @@
+/*-------------------------------------
+		16. Footer
+--------------------------------------*/
+.hm-footer {
+  padding-bottom: 68px;
+  background: #212135;
+}
+.hm-footer-details {
+  margin-top: 120px;
+}
+.hm-footer-widget {
+  margin-bottom: 30px;
+}
+
+/* hm-foot-title */
+.hm-foot-title h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 32px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+.hm-foot-title .logo {
+  margin-bottom: 32px;
+}
+.hm-foot-para p {
+  color: #aaa;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  text-transform: initial;
+  max-width: 260px;
+} /* hm-foot-title */
+
+/*hm-foot-icon*/
+.hm-foot-icon {
+  margin-top: 33px;
+}
+.hm-foot-icon ul {
+  display: inline-flex;
+  margin-left: -11px;
+}
+.hm-foot-icon ul li {
+  width: 32px;
+  height: 32px;
+  background: #aaa;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hm-foot-icon ul li > a > i {
+  color: #212135;
+}
+.hm-foot-icon ul li:hover {
+  background: #fff;
+} /*hm-foot-icon*/
+
+/* footer-menu  */
+.footer-menu ul {
+  display: grid;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #aaa;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.footer-menu li a:hover,
+.footer-menu li a:focus {
+  color: #fff;
+  font-weight: 700;
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+} /* footer-menu  */
+
+/*hm-foot-email*/
+.hm-foot-para p.para-news {
+  color: #aaa;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-transform: initial;
+  max-width: 263px;
+  padding-top: 3px;
+}
+
+.hm-foot-email {
+  display: flex;
+  margin-top: 35px;
+}
+.foot-email-box .form-control {
+  background: #3d3d4d;
+  display: block;
+  padding: 32px 32px 33px;
+  outline: 0 !important;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+}
+.foot-email-box input[placeholder="Email Address"] {
+  color: #8b8b8b;
+  font-size: 16px;
+}
+.foot-email-subscribe button {
+  width: 65px;
+  height: 65px;
+  background: #7370d8;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+} /*hm-foot-email*/
+
+/*hm-para-news*/
+.hm-para-news a {
+  color: #aaa;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  text-transform: initial;
+  max-width: 258px;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hm-para-news a:hover {
+  color: #7370d8;
+}
+.footer-line {
+  padding: 30px 0 35px;
+}
+.border-bottom {
+  border-bottom: 1px solid #aaa;
+}
+.hm-para-news span {
+  color: #aaa;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+} /*hm-para-news*/
+
+/*-------------------------------------
+  17. Footer- copyright
+--------------------------------------*/
+.footer-copyright {
+  background: #1a1a2a;
+  padding: 30px 0 35px;
+}
+.foot-copyright {
+  color: #8b8b8b;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+/* foot-menu  */
+.foot-menu ul li {
+  float: left;
+  padding-left: 15px;
+  text-transform: capitalize;
+}
+
+.foot-menu li a {
+  color: #8790af;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.foot-menu li {
+  position: relative;
+  padding-left: 42px;
+}

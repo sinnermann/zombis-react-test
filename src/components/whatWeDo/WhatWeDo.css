@@ -1,0 +1,98 @@
+/*-------------------------------------
+		4. We-do
+--------------------------------------*/
+.we-do {
+  padding: 115px 0 82px;
+}
+
+/* section-header */
+.section-header h2 {
+  color: #44454f;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.section-header h2 span {
+  color: #4d4e54;
+}
+.section-header p {
+  color: #888;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 32px;
+  line-height: 1.8;
+} /* section-header */
+
+/*single-we-do-box */
+.we-do-carousel {
+  padding-top: 60px;
+}
+.we-do-description {
+  padding: 55px 0 70px;
+}
+.single-we-do-box {
+  box-shadow: 0 0 5px rgba(35, 37, 41, 0.1);
+  overflow-x: hidden;
+  margin-top: 15px;
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*we-do-description*/
+.single-we-do-box {
+  background: #fff;
+  min-height: 345px;
+}
+/* we-do-info */
+.we-do-info {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+.we-do-img {
+  margin-right: 5px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.we-do-topics {
+  margin-top: 32px;
+  margin-bottom: 27px;
+}
+.we-do-topics h2 a {
+  color: #44454f;
+  font-size: 20px;
+} /* we-do-info */
+
+/* we-do-comment */
+.we-do-comment {
+  margin-top: 14px;
+}
+.we-do-comment p {
+  color: #888;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  max-width: 306px;
+  margin: 0 auto;
+} /* we-do-comment */
+
+/*we-do-description*/
+.single-we-do-box:hover {
+  box-shadow: 0 5px 20px rgba(112, 134, 230, 0.2);
+  opacity: 1;
+}
+
+/*owl carousel*/
+.owl-carousel .owl-stage {
+  position: relative;
+  padding-top: 26px;
+  padding-bottom: 40px;
+}
